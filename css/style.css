@@ -1,0 +1,195 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+body{
+background-color: gray;
+font-size: 15px;
+}
+img{
+width: 100%;
+}
+a{
+text-decoration: none;
+}
+p {
+text-align: justify;
+}
+h1,h2,h3,h4,h5,h6{
+font-size: 20px;
+font-family: arial;
+font-style: normal;
+margin: 8px 0;
+}
+.container{
+width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.row{
+margin-left: -15px;
+margin-right: -15px;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+[class*="col-"] {
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+margin: 5px 0;
+}
+/* For mobile phones: */
+[class*="col-"] {
+width: 100%;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*MY CUSTON CSS START*/
+/*====================*/
+/*HEADER SECTION START*/
+/*====================*/
+header {
+background-color: white;
+height: auto;
+overflow: hidden;
+}
+.header-title {
+background-color: black;
+padding: 10px;
+margin-top: -5px;
+}
+marquee {
+color: white;
+font-size: 25px;
+}
+.header-title span {
+color: wheat;
+font-weight: 700;
+font-size: 30px;
+}
+.online-offline.time {
+background-color: #005455;
+height: 38px;
+margin-top: -10px;
+}
+.time-icon {
+text-align: center;
+}
+img.icon-time {
+width: 25px;
+}
+.time-icon span {
+color: white;
+}
+.time-icon strong {
+background-color: red;
+padding: 4px;
+}
+/*====================*/
+
+/*====================*/
+/*login Section Start*/
+/*====================*/
+section.logIn {
+background: linear-gradient(90deg, rgba(59,57,64,1) 0%, rgba(24,24,31,1) 0%, rgba(214,213,219,1) 0%, rgba(128,181,128,1) 0%, rgba(231,227,238,1) 0%, rgba(141,136,151,1) 0%, rgba(100,98,119,1) 0%, rgba(202,196,245,1) 0%, rgba(10,3,24,1) 100%, rgba(224,221,228,1) 100%, rgba(193,183,214,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%);
+padding-top: 100px;
+padding-bottom: 100px;
+overflow: hidden;
+}
+.user-account {
+background-color: #ffffff6e;
+height: 529px;
+text-align: center;
+margin: auto;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.user-account h2 {
+padding-top: 52px;
+padding-bottom: 52px;
+font-size: 30px;
+}
+input.input-type {
+width: 400px;
+margin-bottom: 28px;
+outline: none;
+border: 1px solid #ccc;
+border-radius: 12px;
+height: 44px;
+padding: 6px 12px;
+background-color: #1d0a0a29;
+color: white;
+}
+.input-btn #loginBtn {
+    width: 150px;
+    padding: 13px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 17px;
+    margin-right: -253px;
+    background-color: #d0cce4b3;
+    cursor: pointer;
+}
+.loginBtn:hover{
+background-color: tomato;
+color: white;
+transition: all 0.5s;
+}
+.user-option {
+margin-top: 68px;
+}
+.cheakbox-left label{
+font-weight: 300;
+margin-top: -13px;
+width: auto;
+}
+.cheakbox-left {
+margin-left: -438px;
+}
+input[type="checkbox"] {
+width: 30px;
+cursor: pointer;
+}
+.cheakbox-left label:hover{
+color: white;
+transition: 0.5s;
+}
+.right-forgotten.password {
+margin-right: -263px;
+}
+.right-forgotten.password a:hover{
+color: #ff000096;
+}
+.create-btn {
+background: linear-gradient(90deg, rgba(59,57,64,1) 0%, rgba(31,24,26,1) 0%, rgba(214,213,219,1) 0%, rgba(128,181,128,1) 0%, rgba(231,227,238,1) 0%, rgba(141,136,151,1) 0%, rgba(100,98,119,1) 0%, rgba(123,117,154,1) 0%, rgba(159,29,70,1) 100%, rgba(119,113,150,1) 100%, rgba(10,3,24,1) 100%, rgba(224,221,228,1) 100%, rgba(193,183,214,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%, rgba(10,3,24,1) 100%);
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 10px;
+text-align: center;
+margin: auto;
+}
+.create-btn a {
+color: white;
+font-size: 18px;
+}
+.create-btn a:hover{
+color: black;
+}
+/*login Section END*/
+/*====================*/
